@@ -1,0 +1,40 @@
+{
+  "min_score": 60,
+  "max_age_days": 14,
+  "max_alerts_per_run": 10,
+  "max_years_required": 4,
+
+  "tracks": {
+    "builder": {
+      "label": "Automation / Python / Bots",
+      "titles": ["python", "automation", "bot developer", "junior developer", "junior software engineer", "junior software developer", "junior backend", "junior web developer", "entry level developer", "ai engineer", "integration specialist", "no-code", "vibe coder", "github"],
+      "skills": ["python", "typescript", "javascript", "api", "apis", "telegram", "automation", "bot", "bots", "web scraping", "github", "git", "github actions", "ci/cd", "supabase", "sql", "docker", "solana", "web3", "ai", "llm", "claude", "pytest", "open source"]
+    },
+    "ai_training": {
+      "label": "AI training / evaluation",
+      "titles": ["ai trainer", "ai training", "data annotator", "data annotation", "data labeling", "data labeler", "ai evaluator", "ai tutor", "search quality rater", "ads rater", "prompt writer", "llm evaluator", "code evaluator"],
+      "skills": ["python", "annotation", "labeling", "evaluation", "llm", "ai", "writing", "english", "code review", "fact-checking", "github"]
+    },
+    "data": {
+      "label": "Data analysis / data entry",
+      "titles": ["data analyst", "junior data", "data entry", "data operations", "reporting analyst", "research assistant", "data research"],
+      "skills": ["sql", "excel", "google sheets", "spreadsheet", "spreadsheets", "python", "dashboard", "reporting", "data cleaning", "data entry", "research", "attention to detail"]
+    },
+    "support": {
+      "label": "Support / virtual assistant",
+      "titles": ["virtual assistant", "customer support", "customer service", "customer care", "support specialist", "support agent", "support representative", "technical support", "help desk", "chat support", "administrative assistant", "operations assistant", "customer experience"],
+      "skills": ["zendesk", "intercom", "email", "chat", "crm", "english", "communication", "troubleshooting", "saas", "ticketing", "discord", "telegram", "google workspace"]
+    },
+    "web3_community": {
+      "label": "Web3 community / content",
+      "titles": ["community manager", "community moderator", "moderator", "community support", "community associate", "community lead intern", "social media assistant", "content writer", "developer community", "developer advocate intern"],
+      "skills": ["web3", "crypto", "solana", "defi", "discord", "telegram", "twitter", "community", "content", "moderation", "onboarding", "github"]
+    }
+  },
+
+  "excluded_title_words": ["senior", "sr", "lead engineer", "tech lead", "team lead", "principal", "staff engineer", "head of", "director", "vp", "vice president", "chief", "architect", "engineering manager", "product manager", "account executive", "unpaid", "volunteer", "commission only"],
+
+  "blocking_phrases": ["us citizens only", "u.s. citizens only", "must be a us citizen", "must be authorized to work in the united states", "must be authorized to work in the us", "authorized to work in the u.s.", "must reside in the united states", "must reside in the us", "must be based in the united states", "must be based in the us", "us-based candidates only", "u.s.-based candidates only", "uk-based candidates only", "eu-based candidates only", "must have the right to work in the uk", "security clearance", "commission only", "commission-only"],
+
+  "himalayas_searches": ["python", "automation", "AI trainer", "data annotation", "data analyst", "data entry", "customer support", "virtual assistant", "community manager", "junior developer"]
+}
